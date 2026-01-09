@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>Target 1</TargetName>
+      <TargetName>s</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <uAC6>1</uAC6>
@@ -382,6 +382,38 @@
       <Groups>
         <Group>
           <GroupName>User</GroupName>
+          <Files>
+            <File>
+              <FileName>gd32f4xx_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\gd32f4xx_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\systick.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>CMSIS</GroupName>
+          <Files>
+            <File>
+              <FileName>system_gd32f4xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>startup_gd32f407_427.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Firmware\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f407_427.s</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Libs</GroupName>
