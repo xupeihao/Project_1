@@ -4,7 +4,10 @@
 ".\objects\systick.o"
 ".\objects\system_gd32f4xx.o"
 ".\objects\startup_gd32f407_427.o"
---strict --scatter ".\Objects\project.sct"
+".\objects\gd32f4xx_gpio.o"
+".\objects\gd32f4xx_rcu.o"
+".\objects\gd32f4xx_misc.o"
+--library_type=microlib --strict --scatter ".\Objects\project.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\project.map" -o .\Objects\project.axf

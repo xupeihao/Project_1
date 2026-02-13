@@ -52,7 +52,7 @@
           <OutputName>project</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -190,7 +190,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -421,6 +421,26 @@
         </Group>
         <Group>
           <GroupName>Board</GroupName>
+        </Group>
+        <Group>
+          <GroupName>Fireware</GroupName>
+          <Files>
+            <File>
+              <FileName>gd32f4xx_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_rcu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_misc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
