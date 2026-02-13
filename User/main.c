@@ -1,7 +1,7 @@
 #include "gd32f4xx.h"
 #include "systick.h"
 #include <stdio.h>
-
+//头文件，可不加
 #include "gd32f4xx_rcu.h"
 #include "gd32f4xx_gpio.h"
 
